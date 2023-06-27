@@ -1,3 +1,19 @@
+linux-rockchip-5.10.160 (5.10.160-4) jammy; urgency=medium
+
+  * iwlwifi: pnvm: pretend to have loaded pnvm file on 5.10 bsp (#60)
+  * Upload build artefacts (#59)
+  * arm64: dts: rockchip: use rockchip,hdmi as hdmirx audio driver ref: commit 99edbfa6ee142e2968c2b9ebb041016aa0ba9c75
+  * media: rockchip: hdmirx: hdmirx_audio_startup always return 0 PulseAudio would fail to load alsa card if hdmirx_audio_startup return error
+  * arm64: dts: use mmclkout_i2sx for opi5plus, nanopct6, and 9tripod
+  * arm64: dts: remove unused 9tripod device tree files
+  * Switch away from organisation
+  * Add workflow_dispatch trigger (#52)
+  * Store caches at this repository (#50)
+  * arm64: dts: opi5: move dp0 in vp2
+  * sound: rockchip: fix dp sound issue
+
+ -- Joshua Riek <jjriek@verizon.net>  Tue, 27 Jun 2023 09:26:32 -0400
+
 linux-rockchip-5.10.160 (5.10.160-3) jammy; urgency=medium
 
   * Enable action script for kernel recompilation on PR (#42)
