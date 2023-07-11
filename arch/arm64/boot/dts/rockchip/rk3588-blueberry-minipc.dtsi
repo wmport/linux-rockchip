@@ -232,6 +232,7 @@
 
 &hdmi0 {
 	enable-gpios = <&gpio4 RK_PB1 GPIO_ACTIVE_HIGH>;
+	cec-enable = "true" ;
 	hdcp1x-enable;
 	status = "okay";
 };
@@ -250,6 +251,7 @@
 
 &hdmi1 {
 	enable-gpios = <&gpio4 RK_PB2 GPIO_ACTIVE_HIGH>;
+	cec-enable = "true" ;
 	hdcp1x-enable;
 	status = "okay";
 };
@@ -478,6 +480,10 @@
 			};
 		};
 	};
+};
+
+&wdt {
+	status = "okay";
 };
 
 &vdd_log_s0 {  //fox.luo@2022.05.26 don't wake up 
