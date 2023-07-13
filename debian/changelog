@@ -1,3 +1,25 @@
+linux-rockchip-5.10.160 (5.10.160-6) jammy; urgency=medium
+
+  * arm64: configs: sync rockchip linux defconfig with armbian
+  * arm64: configs: enable SCSI support types in rockchip linux defconfig
+  * mixtile: Blade 3: enable i2s5_8ch & i2s7_8ch for hdmi audio (#67)
+  * workflow: don't upload kernel in pr (#66)
+  * ethernet: dwmac4: fix VLAN in promisc mode not supported
+  * drm/rockchip: dw-dp: suppress "timeout waiting for AUX reply" spam
+  * arm64: dts: nanopir6: use proper mmc aliases
+  * mixtile: add dts & Makefile for Mixtile Blade 3
+  * arm64: configs: add dvb/camera/radio drivers to the rockchip linux defconfig
+  * arm64: dts: rock5a: providing more cooling levels for pwm-fan (#63)
+  * meko: v12 MeiZhuo: drop DP changes from vendor
+  * meko: es8311: v10, preserve "arm64: dts: rockchip: rk3588: Use mclkout_i2sx" from 005807f
+  * meko: add new DTs to Makefile
+  * meko: vk2c21 LCD driver for the R58X-PRO
+  * meko: remove silly indentation changes; bring back amazingfate's hdmiin-sound changes in the v10
+  * meko: updated DT's from `blueberry_edge_patch_230617` from vendor
+  * radxa-cm5: add Radxa CM5 DT + Makefile
+
+ -- Joshua Riek <jjriek@verizon.net>  Wed, 12 Jul 2023 21:46:37 -0400
+
 linux-rockchip-5.10.160 (5.10.160-5) jammy; urgency=medium
 
   * revert "iwlwifi: pnvm: pretend to have loaded pnvm file on 5.10 bsp (#60)"
