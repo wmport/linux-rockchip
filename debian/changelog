@@ -1,3 +1,20 @@
+linux-rockchip-5.10.160 (5.10.160-7) jammy; urgency=medium
+
+  * arm64: dts: cm5: swap sdhci and sdmmc aliases
+  * arm64: dts: cm5 io: use mmclkout_i2s0 for es8316
+  * arm64: dts: cm5 io: change i2c7m0 to i2c8m2 for es8316
+  * arm64: dts: cm5 io: add user led
+  * arm64: dts: cm5: add at24c16
+  * arm64: configs: enable CONFIG_EEPROM_AT24 in the rockchip linux defconfig
+  * arm64: dts: add pwm fan node for radxa cm5 io
+  * arm64: dts: blade3: swap cursor and display plane
+  * arm64: dts: blade3: fix hdmirx detection
+  * arm64: dts: blade3: enable dp0 and dp1 audio
+  * arm64: dts: blade3: use rockchip,hdmi as hdmirx audio driver
+  * arm64: configs: enable cephfs support in the rockchip linux defconfig 
+
+ -- Joshua Riek <jjriek@verizon.net>  Wed, 19 Jul 2023 07:41:07 -0400
+
 linux-rockchip-5.10.160 (5.10.160-6) jammy; urgency=medium
 
   * arm64: configs: sync rockchip linux defconfig with armbian
