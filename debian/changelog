@@ -1,3 +1,14 @@
+linux-rockchip-5.10.160 (5.10.160-9) jammy; urgency=medium
+ 
+  * arm64: dts: nanopct6: add sfc node
+  * arm64: dts: add overlays for radxa cm5 io
+  * arm64: configs: enable VHOST_NET and NVME_HWMON for linux rockchip defconfig
+  * add fxblox-rk1 board dts
+  * arm64: dts: h88k: enable pcie2x1l2
+  * arm64: dts: make usbdrd_dwc3_0 -> dr_mode `host` for nanopi-r6-common
+
+ -- Joshua Riek <jjriek@verizon.net>  Wed, 09 Aug 2023 21:48:31 -0400
+
 linux-rockchip-5.10.160 (5.10.160-8) jammy; urgency=medium
 
   * arm64: dts: blade3: add sata2 overlay for mini pcie port
