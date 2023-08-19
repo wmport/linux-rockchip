@@ -1,3 +1,10 @@
+linux-rockchip-5.10.160 (5.10.160-11) jammy; urgency=medium
+
+  * Revert "net: wireless: rockchip_wlan: bcmdhd: Enable CONFIG_BCMDHD_REQUEST_FW"
+  * arm64: dts: hinlink-h88k: update emmc, sd card aliases
+
+ -- Joshua Riek <jjriek@verizon.net>  Sat, 19 Aug 2023 12:10:15 -0400
+
 linux-rockchip-5.10.160 (5.10.160-10) jammy; urgency=medium 
 
   * revert "iwlwifi: pnvm: pretend to have loaded pnvm file on 5.10 bsp"
