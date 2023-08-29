@@ -1,3 +1,17 @@
+linux-rockchip-5.10.160 (5.10.160-12) jammy; urgency=medium
+
+  * arm64: dts: rockchip: add rk3588s Embedfire LubanCat-4
+  * arm64: dts: 9tripod: use rockchip,hdmi for hdmi0 sound
+  * arm64: dts: 9tripod: add dp0 sound node
+  * arm64: dts: odroid-m1: add dt to Makefile
+  * arm64: dts: odroid-m1: add vp0 and gpu props for panfrost
+  * arm64: dts: odroid-m1: add ODROID-M1 dt from 4.19 vendor sources
+  * arm64: dts: Add Makefile rk3588-armsom-w3.dtb for ArmSoM-w3
+  * arm64: dts: Add device tree for ArmSoM-w3
+  * arm64: dts: 9tripod: fix usb-c display port
+
+ -- Joshua Riek <jjriek@verizon.net>  Tue, 29 Aug 2023 18:36:29 -0400
+
 linux-rockchip-5.10.160 (5.10.160-11) jammy; urgency=medium
 
   * Revert "net: wireless: rockchip_wlan: bcmdhd: Enable CONFIG_BCMDHD_REQUEST_FW"
