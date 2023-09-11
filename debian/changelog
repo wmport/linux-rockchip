@@ -1,3 +1,14 @@
+linux-rockchip-5.10.160 (5.10.160-13) jammy; urgency=medium
+
+  * arm64: dts: rockchip: change sound card names for pulseaudio ucm2 compatibility
+  * gpu: drm: rockchip: suppress unsupported format modifier spam
+  * rockchip_linux_defconfig: enable CONFIG_VIDEO_ROCKCHIP_RKISP1 and CONFIG_HID_MAGICMOUSE
+  * fix spreadtrum (sprd) broken bluetooth park link status
+  * net: wireless: Add uwe5622 driver
+  * arm64: dts: add devicetree of orangepi3b
+
+ -- Joshua Riek <jjriek@verizon.net>  Mon, 11 Sep 2023 16:31:55 -0400
+
 linux-rockchip-5.10.160 (5.10.160-12) jammy; urgency=medium
 
   * arm64: dts: rockchip: add rk3588s Embedfire LubanCat-4
