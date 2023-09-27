@@ -31,17 +31,11 @@
 
 	hdmi0_sound: hdmi0-sound {
 		status = "disabled";
-		compatible = "simple-audio-card";
-		simple-audio-card,format = "i2s";
-		simple-audio-card,mclk-fs = <128>;
-		simple-audio-card,name = "rockchip-hdmi0";
-
-		simple-audio-card,cpu {
-			sound-dai = <&i2s5_8ch>;
-		};
-		simple-audio-card,codec {
-			sound-dai = <&hdmi0>;
-		};
+		compatible = "rockchip,hdmi";
+		rockchip,mclk-fs = <128>;
+		rockchip,card-name = "rockchip-hdmi0";
+		rockchip,cpu = <&i2s5_8ch>;
+		rockchip,codec = <&hdmi0>;
 	};
 
 	vcc5v0_sys: vcc5v0-sys {
@@ -696,4 +690,26 @@
 &display_subsystem {
 	clocks = <&hdptxphy_hdmi_clk0>;
 	clock-names = "hdmi0_phy_pll";
+};
+
+&spi0 {
+	pinctrl-0 = <&spi0m2_cs0 &spi0m2_pins>;
+	status = "disabled";
+
+	spidev0: spidev@0 {
+		compatible = "rockchip,spidev";
+		reg = <0>;
+		spi-max-frequency = <10000000>;
+		status = "disabled";
+	};
+};
+
+&uart4 {
+	pinctrl-0 = <&uart4m2_xfer>;
+	status = "disabled";
+};
+
+&uart5 {
+	pinctrl-0 = <&uart5m1_xfer>;
+	status = "okay";
 };
