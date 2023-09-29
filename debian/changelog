@@ -1,3 +1,13 @@
+linux-rockchip-5.10.160 (5.10.160-14) jammy; urgency=medium
+
+  * rockchip_linux_defconfig: enable CONFIG_HID_APPLE
+  * add h28k dts
+  * video: rockchip: rga3: fix 10b compact in win0/1 cannot be changed from user space
+  * arm64: dts: rockchip: use rockchip,hdmi driver for NanoPi R6 and NanoPC T6
+  * arm64: dts: rockchip: add GPIO nodes for NanoPi R6 and NanoPC T6
+
+ -- Joshua Riek <jjriek@verizon.net>  Fri, 29 Sep 2023 19:31:54 -0400
+
 linux-rockchip-5.10.160 (5.10.160-13) jammy; urgency=medium
 
   * arm64: dts: rockchip: change sound card names for pulseaudio ucm2 compatibility
