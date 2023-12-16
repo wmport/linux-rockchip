@@ -1,3 +1,15 @@
+linux-rockchip-5.10 (5.10.160-25) jammy; urgency=medium
+
+  * arm64: dts: rock-5-itx: Fix hdmiin audio
+  * arm64: dts: Add overlays for the ROCK 5 ITX
+  * arm64: dts: add rock 5 itx
+  * arm64: dts: Add overlays for the Radxa NX5
+  * arm64: dts: Add support for the Radxa NX5
+  * add hinlink ht2 dts
+  * add AIC8800 sdio wireless driver
+
+ -- Joshua Riek <jjriek@verizon.net>  Sat, 16 Dec 2023 17:33:56 -0500
+
 linux-rockchip-5.10 (5.10.160-24) jammy; urgency=medium
 
   * arm64: dts: turing-rk1: fix rtc-hym8563 init failure 
