@@ -1,3 +1,10 @@
+linux-rockchip-5.10 (5.10.160-26) jammy; urgency=medium
+
+  * Add armsom-sige7 device tree
+  * arm64: dts: Add the Mixtile Core RK3588E  
+
+ -- Joshua Riek <jjriek@verizon.net>  Thu, 21 Dec 2023 08:32:02 -0500
+
 linux-rockchip-5.10 (5.10.160-25) jammy; urgency=medium
 
   * arm64: dts: rock-5-itx: Fix hdmiin audio
