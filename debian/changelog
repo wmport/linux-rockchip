@@ -1,3 +1,10 @@
+linux-rockchip-5.10 (5.10.160-27) jammy; urgency=medium
+
+  * arm64: dts: turing-rk1: Enable ddc-i2c-rxfilter
+  * drivers: drm: dw-hdmi-qp: Add ddc-i2c-rxfilter DT prop
+
+ -- Joshua Riek <jjriek@verizon.net>  Mon, 25 Dec 2023 10:22:50 -0500
+
 linux-rockchip-5.10 (5.10.160-26) jammy; urgency=medium
 
   * Add armsom-sige7 device tree
