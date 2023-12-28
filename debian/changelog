@@ -1,3 +1,10 @@
+linux-rockchip-5.10 (5.10.160-28) jammy; urgency=medium
+
+  * arm64: dts: rk3588-fxblox-rk1: add edp and user leds
+  * drivers: drm: dw-hdmi-qp: Apply ddc-i2c-rxfilter only if DT prop exists 
+
+ -- Joshua Riek <jjriek@verizon.net>  Thu, 28 Dec 2023 08:42:12 -0500
+
 linux-rockchip-5.10 (5.10.160-27) jammy; urgency=medium
 
   * arm64: dts: turing-rk1: Enable ddc-i2c-rxfilter
