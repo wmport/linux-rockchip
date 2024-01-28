@@ -1,5 +1,7 @@
 # SPDX-License-Identifier: GPL-2.0
 dtbo-$(CONFIG_ARCH_ROCKCHIP) += \
+	armsom-sige7-camera-imx415-4k.dtbo \
+	armsom-sige7-display-10hd.dtbo \
 	orangepi-5-lcd1.dtbo \
 	orangepi-5-lcd2.dtbo \
 	orangepi-5-sata.dtbo \
@@ -45,6 +47,11 @@ dtbo-$(CONFIG_ARCH_ROCKCHIP) += \
 	radxa-nx5-io-rpi-camera-v2-cam1.dtbo \
 	turing-rk1-sata2.dtbo \
 	mixtile-blade3-sata2.dtbo \
+	radxa-zero3-rpi-camera-v2.dtbo \
+	radxa-zero3-rpi-camera-v1.3.dtbo \
+	radxa-zero3-external-antenna.dtbo \
+	radxa-zero3-disabled-ethernet.dtbo \
+	radxa-zero3-disabled-wireless.dtbo \
 	yy3568-camera.dtbo \
 	yy3568-display-dsi0.dtbo \
 	yy3568-display-dsi1.dtbo \
