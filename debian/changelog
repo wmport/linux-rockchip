@@ -1,3 +1,19 @@
+linux-rockchip-5.10 (5.10.160-29) jammy; urgency=medium
+
+  * rockchip_linux_defconfig: enable AP6212, AIC8800, and UWE5622
+  * arm64: dts: rock-5a: pull down data-strobe to fix emmc compatibility
+  * arm64: dts: rockchip: Add Radxa Zero 3 overlays
+  * drivers: wireless: aic8800_sdio: disable debug info
+  * uwe5622: various warning and firmware path fixes
+  * drivers: wireless: aic8800_sdio: fix duplicate firmware path warning
+  * arm64: dts: rockchip: Add the Radxa Zero 3
+  * Added device tree overlays files for armsom-sige7 board: camera-imx415-4k.dtbo and display-10hd.dtbo
+  * media: rockchip: hdmirx: add VIDIOC_S_INPUT and VIDIOC_G_INPUT
+  * Remove deprected switch. Logs saying its not needed anymore.
+  * add mangopi m28k dts
+
+ -- Joshua Riek <jjriek@verizon.net>  Sun, 28 Jan 2024 14:03:04 -0500
+
 linux-rockchip-5.10 (5.10.160-28) jammy; urgency=medium
 
   * arm64: dts: rk3588-fxblox-rk1: add edp and user leds
