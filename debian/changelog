@@ -1,3 +1,9 @@
+linux-rockchip-5.10 (5.10.160-30) jammy; urgency=medium
+
+  * arm64: dts: rockchip: Radxa ROCK 5 ITX DTS patch
+
+ -- Joshua Riek <jjriek@verizon.net>  Sun, 28 Jan 2024 21:00:46 -0500
+
 linux-rockchip-5.10 (5.10.160-29) jammy; urgency=medium
 
   * rockchip_linux_defconfig: enable AP6212, AIC8800, and UWE5622
