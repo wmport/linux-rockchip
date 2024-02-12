@@ -1,3 +1,13 @@
+linux-rockchip-5.10 (5.10.160-31) jammy; urgency=medium
+
+  * Update gcc-wrapper.py to disable interpret_warning
+  * Update armsom-sige7 device tree
+  * Fix CEC on rk356X on tv restart (armbian#149)
+  * station-m3: add cooling-maps pwm-fan support.
+  * rockchip_linux_defconfig: enable additional broadcom modules
+
+ -- Joshua Riek <jjriek@verizon.net>  Mon, 12 Feb 2024 09:59:09 -0500
+
 linux-rockchip-5.10 (5.10.160-30) jammy; urgency=medium
 
   * arm64: dts: rockchip: Radxa ROCK 5 ITX DTS patch
