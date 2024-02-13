@@ -1,0 +1,77 @@
+linux-rockchip (5.10.0-1009.9) jammy; urgency=medium
+
+  * arm64: dts: rockchip: add camera overlays for the Rock 5D
+  * arm64: dts: rockchip: add generic rk3568 overlays
+  * drivers/net: stmmac: use phy uid for rtl8211f fixup function
+  * ethernet: stmmac: disable rtl8211f eee
+  * ethernet: stmmac: add phy rtl8211f register fixup
+  * UBUNTU: enable fanotify access permissions
+  * Revert "usb: dwc3: core: Do not perform GCTL_CORE_SOFTRESET during bootup" 
+
+ -- Joshua Riek <jjriek@verizon.net>  Sun, 30 Jun 2024 14:24:09 -0400
+
+linux-rockchip (5.10.0-1008.8) jammy; urgency=medium
+
+  * arm64: dts: orangepi-5-pro: set USB OTG interface to host mode
+  * UBUNTU: enable the RT2800USB driver
+  * arm64: dts: orangepi-5-pro: fix the pwm driving frequency
+
+ -- Joshua Riek <jjriek@verizon.net>  Sun, 23 Jun 2024 15:01:24 -0400
+
+linux-rockchip (5.10.0-1007.7) jammy; urgency=medium
+
+  * UBUNTU: remove flash-kernel recommends
+  * arm64: dts: rockchip: add the radxa-cm5-rpi-cm4-io
+
+ -- Joshua Riek <jjriek@verizon.net>  Wed, 05 Jun 2024 18:21:37 -0400
+
+linux-rockchip (5.10.0-1006.6) jammy; urgency=medium
+
+  * UBUNTU: disable goodix touchscreen driver
+  * input: touchscreen: gt9xx: add cj080258 gt9271 config
+  * UBUNTU: enable EM05 LTE module
+  * net: lte: add lte_em05 driver
+  * UBUNTU: enable broadcom 43XX legacy wireless support
+
+ -- Joshua Riek <jjriek@verizon.net>  Sun, 02 Jun 2024 17:15:59 -0400
+
+linux-rockchip (5.10.0-1005.5) jammy; urgency=medium
+
+  * arm64: dts: rockchip: Update Radxa overlays for the Rock 5 series
+  * arm64: dts: rockchip: Add the Radxa Rock 5D
+  * arm64: dts: rockchip: Add the Radxa Rock 5B Plus
+  * arm64: dts: rockchip: Add the Radxa Rock 5C
+
+ -- Joshua Riek <jjriek@verizon.net>  Mon, 27 May 2024 10:08:12 -0400
+
+linux-rockchip (5.10.0-1004.4) jammy; urgency=medium
+
+  * arm64: dts: rockchip: add Orange Pi 5 sata device tree
+  * UBUNTU: bump dkms versions
+  * UBUNTU: enable apparmor
+  * arm64: dts: rock-5-itx: update vp plane and fix es8316
+
+ -- Joshua Riek <jjriek@verizon.net>  Wed, 08 May 2024 05:11:02 -0400
+
+linux-rockchip (5.10.0-1003.3) jammy; urgency=medium
+
+  * UBUNTU: enable filesystem-level encryption (fscrypt)
+  * UBUNTU: enable AQtion and MotorComm drivers
+  * arm64: dts: rockchip: add support for the Orange Pi 5 Pro
+  * net: ethernet: motorcomm: Add yt6801 driver 
+
+ -- Joshua Riek <jjriek@verizon.net>  Wed, 01 May 2024 10:47:02 -0400
+
+linux-rockchip (5.10.0-1002.2) jammy; urgency=medium
+
+  * arm64: dts: rockchip: add dummy dts for indiedroid nova and blade 3
+  * UPSTREAM: arm64: dts: rockchip: Fix eMMC Data Strobe PD
+  * drivers: wireless: rockchip_wlan: fix rtl8852be and rtl8852bu out of tree compile
+
+ -- Joshua Riek <jjriek@verizon.net>  Tue, 30 Apr 2024 18:45:33 -0400
+
+linux-rockchip (5.10.0-1001.1) jammy; urgency=medium
+
+  * Initial release
+
+ -- Joshua Riek <jjriek@verizon.net>  Wed, 17 Apr 2024 15:57:09 -0400
