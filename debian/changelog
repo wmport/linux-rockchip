@@ -1,3 +1,12 @@
+linux-rockchip-5.10 (5.10.160-32) jammy; urgency=medium
+
+  * arm64: dts: turing-rk1: enable USB3 host and USB2 (EHCI & OHCI)
+  * arm64: dts: Add support for FriendlyElec CM3588
+  * arm64: dts: nanopi-6-common: Add several features based on vendor dtsi
+  * arm64: dts: hinlink-h6xk: add missing led gpio 
+
+ -- Joshua Riek <jjriek@verizon.net>  Sat, 09 Mar 2024 10:44:49 -0500
+
 linux-rockchip-5.10 (5.10.160-31) jammy; urgency=medium
 
   * Update gcc-wrapper.py to disable interpret_warning
