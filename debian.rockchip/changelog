@@ -1,1 +1,5 @@
+linux-rockchip (6.1.0-1001.1) noble; urgency=medium
 
+  * Initial release
+
+ -- Joshua Riek <jjriek@verizon.net>  Sat, 10 Mar 2024 09:24:17 -0500
