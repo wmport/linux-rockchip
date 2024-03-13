@@ -1,3 +1,16 @@
+linux-rockchip (6.1.0-1002.2) noble; urgency=medium
+
+  * arm64: dts: turing-rk1: enable USB3 host and USB2 (EHCI & OHCI)
+  * UBUNTU: enable R8169 for 2.5 GbE
+  * Revert "drivers: net: ethernet: add r8125 driver"
+  * Revert "ethernet: realtek: r8125: stop rss spamming kernel logs"
+  * Revert "ethernet: realtek: r8125: enable multiple tx queue and rss support for performance"
+  * net: wireless: realtek: backport rtw89 from linux 6.6
+  * Revert "net: wireless: realtek: update rtw89 driver to support compressed firmware"
+  * UBUNTU: enable kernel version signature 
+
+ -- Joshua Riek <jjriek@verizon.net>  Wed, 13 Mar 2024 17:54:22 -0400
+
 linux-rockchip (6.1.0-1001.1) noble; urgency=medium
 
   * Initial release
