@@ -1,3 +1,13 @@
+linux-rockchip (6.1.0-1003.3) noble; urgency=medium
+
+  * rockchip_defconfig: sync with ubuntu defconfig
+  * UBUNTU: enable NVMe over TCP
+  * version_compat_defs: Add vm_flags_set()/vm_flags_clear()
+  * driver: rknpu: Update rknpu driver, version: 0.9.5
+  * driver: rknpu: Update rknpu driver, version: 0.9.4
+
+ -- Joshua Riek <jjriek@verizon.net>  Sun, 17 Mar 2024 11:27:34 -0400
+
 linux-rockchip (6.1.0-1002.2) noble; urgency=medium
 
   * arm64: dts: turing-rk1: enable USB3 host and USB2 (EHCI & OHCI)
