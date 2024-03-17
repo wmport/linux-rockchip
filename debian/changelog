@@ -1,3 +1,17 @@
+linux-rockchip-5.10 (5.10.160-33) jammy; urgency=medium
+
+  * rockchip_linux_defconfig: enable network block device support
+  * driver: rknpu: Fixing deadlock issue with spin_lock in interrupt handling
+  * arm64: dts: cm5: enable emmc hs400 mode
+  * arm46: dts: cm5: enable hdmi0 cec
+  * arm64: dts: cm5: modify vdd_0v75_s0 regulator-microvolt
+  * arm64: dts: cm5 io: update gpiod gpio-line-names
+  * arm64: dts: cm5: enable usb wakeup
+  * arm64: dts: cm5 io: update type-c configuration
+  * arm64: dts: cm5 io: add gpiod label
+
+ -- Joshua Riek <jjriek@verizon.net>  Sun, 17 Mar 2024 10:53:59 -0400
+
 linux-rockchip-5.10 (5.10.160-32) jammy; urgency=medium
 
   * arm64: dts: turing-rk1: enable USB3 host and USB2 (EHCI & OHCI)
