@@ -1,3 +1,11 @@
+linux-rockchip (6.1.0-1004.4) noble; urgency=medium
+
+  * arm64: dts: rockchip: rename ArmSoM Sige7 / W3 model names
+  * arm64: dts: rockchip: add dummy dts for indiedroid nova and blade 3
+  * UBUNTU: enable NBD as module 
+
+ -- Joshua Riek <jjriek@verizon.net>  Fri, 22 Mar 2024 21:52:11 -0400
+
 linux-rockchip (6.1.0-1003.3) noble; urgency=medium
 
   * rockchip_defconfig: sync with ubuntu defconfig
