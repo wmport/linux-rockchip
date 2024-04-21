@@ -1,3 +1,22 @@
+linux-rockchip (6.1.0-1007.7) noble; urgency=medium
+
+  * arm64: dts: rockchip: add overlay to enable hdmirx
+  * arm64: dts: opi5+: disable hdmirx
+  * Avoid EPROBE_DEFER loop with Rockchip DSI driver
+  * arm64: dts: rockchip: Add MCU and fan control to Khadas Edge 2
+  * mfd: backport khadas mcu driver changes from armbian rockchip-rk3588-edge kernel
+  * arm64: dts: rockchip: merge khadas-edge dtsi into dts
+  * arm64: dts: rockchip: khadas-edge2: move camera and dsi properties to overlays
+  * arm64: dts: rockchip: cleanup khadas edge 2 devicetree
+  * UBUNTU: enable AQtion and MotorComm drivers
+  * arm64: dts: rockchip: add support for the Orange Pi 5 Pro
+  * net: wireless: rockchip_wlan: bcmdhd: Update to 101.10.591.x
+  * net: ethernet: motorcomm: Add yt6801 driver
+  * UBUNTU: enable filesystem-level encryption (fscrypt)
+  * UBUNTU: enable MT7921x WiFi drivers
+
+ -- Joshua Riek <jjriek@verizon.net>  Sun, 21 Apr 2024 12:08:34 -0400
+
 linux-rockchip (6.1.0-1006.6) noble; urgency=medium
 
   * UBUNTU: bump dkms versions
