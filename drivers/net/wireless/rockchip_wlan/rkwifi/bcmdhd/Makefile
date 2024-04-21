@@ -475,6 +475,7 @@ EXTRA_CFLAGS += -I$(BCMDHD_ROOT)/include/ -I$(BCMDHD_ROOT)/
 ifeq ($(CONFIG_AP6XXX),m)
 EXTRA_LDFLAGS += --strip-debug
 endif
+EXTRA_CFLAGS += -I$(srctree)/drivers/net/wireless/rockchip_wlan/rkwifi/bcmdhd/include
 
 obj-$(CONFIG_AP6XXX) += $(MODULE_NAME).o
 $(MODULE_NAME)-objs += $(DHDOFILES)
