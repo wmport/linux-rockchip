@@ -1,3 +1,19 @@
+linux-rockchip-5.10 (5.10.160-35) jammy; urgency=medium
+
+  * rockchip_linux_defconfig: enable NVMe over TCP
+  * arm64: dts: rockchip: remove pdm0 nodes on khadas edge2
+  * arm64: dts: rockchip: merge khadas-edge dtsi into dts
+  * arm64: dts: rockchip: khadas-edge2: move camera and dsi properties to overlays
+  * arm64: dts: rockchip: cleanup khadas edge 2 devicetree
+  * arm64: dts: rockchip: Fix bananapim7 Makefile typo
+  * rockchip_linux_defconfig: use apparmor by default
+  * arm64: dts: Add board bananapim7
+  * arm64: rockchip: dts: Add support for the NanoPC-T6 LTS
+  * Revert "Fix CEC on rk356X on tv restart (#149)"
+  * Disable 10bit A/XRGB formats in VOP2
+
+ -- Joshua Riek <jjriek@verizon.net>  Sun, 21 Apr 2024 14:28:12 -0400
+
 linux-rockchip-5.10 (5.10.160-34) jammy; urgency=medium
 
   * rockchip_linux_defconfig: use nbd as a module
