@@ -1,3 +1,11 @@
+linux-rockchip (6.1.0-1009.9) noble; urgency=medium
+
+  * rk3588s-lubancat-4: make fan quieter
+  * UBUNTU: enable UIO driver
+  * arm64: dts: rockchip: delete chosen node for the Orange Pi 5 Pro
+
+ -- Joshua Riek <jjriek@verizon.net>  Mon, 22 Apr 2024 19:59:58 -0400
+
 linux-rockchip (6.1.0-1008.8) noble; urgency=medium
 
   * net: wireless: rkwifi: fix missing typedefs header
