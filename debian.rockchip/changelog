@@ -1,3 +1,10 @@
+linux-rockchip (6.1.0-1010.10) noble; urgency=medium
+
+  * UPSTREAM: arm64: dts: rockchip: Fix eMMC Data Strobe PD
+  * UBUNTU: enable kernel samepage merging
+
+ -- Joshua Riek <jjriek@verizon.net>  Wed, 24 Apr 2024 19:56:10 -0400
+
 linux-rockchip (6.1.0-1009.9) noble; urgency=medium
 
   * rk3588s-lubancat-4: make fan quieter
