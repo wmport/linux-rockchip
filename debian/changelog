@@ -1,3 +1,11 @@
+linux-rockchip-5.10 (5.10.160-36) jammy; urgency=medium
+
+  * rockchip_linux_defconfig: enable UIO driver
+  * arm64: dts: rockchip: add overlay to enable hdmirx
+  * arm64: dts: opi5+: disable hdmirx 
+
+ -- Joshua Riek <jjriek@verizon.net>  Tue, 23 Apr 2024 21:16:28 -0400
+
 linux-rockchip-5.10 (5.10.160-35) jammy; urgency=medium
 
   * rockchip_linux_defconfig: enable NVMe over TCP
