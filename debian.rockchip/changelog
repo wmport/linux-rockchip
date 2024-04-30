@@ -1,3 +1,11 @@
+linux-rockchip (5.10.0-1002.2) jammy; urgency=medium
+
+  * arm64: dts: rockchip: add dummy dts for indiedroid nova and blade 3
+  * UPSTREAM: arm64: dts: rockchip: Fix eMMC Data Strobe PD
+  * drivers: wireless: rockchip_wlan: fix rtl8852be and rtl8852bu out of tree compile
+
+ -- Joshua Riek <jjriek@verizon.net>  Tue, 30 Apr 2024 18:45:33 -0400
+
 linux-rockchip (5.10.0-1001.1) jammy; urgency=medium
 
   * Initial release
