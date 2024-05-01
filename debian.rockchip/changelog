@@ -1,3 +1,12 @@
+linux-rockchip (5.10.0-1003.3) jammy; urgency=medium
+
+  * UBUNTU: enable filesystem-level encryption (fscrypt)
+  * UBUNTU: enable AQtion and MotorComm drivers
+  * arm64: dts: rockchip: add support for the Orange Pi 5 Pro
+  * net: ethernet: motorcomm: Add yt6801 driver 
+
+ -- Joshua Riek <jjriek@verizon.net>  Wed, 01 May 2024 10:47:02 -0400
+
 linux-rockchip (5.10.0-1002.2) jammy; urgency=medium
 
   * arm64: dts: rockchip: add dummy dts for indiedroid nova and blade 3
