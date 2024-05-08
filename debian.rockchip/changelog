@@ -1,3 +1,12 @@
+linux-rockchip (5.10.0-1004.4) jammy; urgency=medium
+
+  * arm64: dts: rockchip: add Orange Pi 5 sata device tree
+  * UBUNTU: bump dkms versions
+  * UBUNTU: enable apparmor
+  * arm64: dts: rock-5-itx: update vp plane and fix es8316
+
+ -- Joshua Riek <jjriek@verizon.net>  Wed, 08 May 2024 05:11:02 -0400
+
 linux-rockchip (5.10.0-1003.3) jammy; urgency=medium
 
   * UBUNTU: enable filesystem-level encryption (fscrypt)
