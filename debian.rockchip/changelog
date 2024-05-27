@@ -1,3 +1,12 @@
+linux-rockchip (5.10.0-1005.5) jammy; urgency=medium
+
+  * arm64: dts: rockchip: Update Radxa overlays for the Rock 5 series
+  * arm64: dts: rockchip: Add the Radxa Rock 5D
+  * arm64: dts: rockchip: Add the Radxa Rock 5B Plus
+  * arm64: dts: rockchip: Add the Radxa Rock 5C
+
+ -- Joshua Riek <jjriek@verizon.net>  Mon, 27 May 2024 10:08:12 -0400
+
 linux-rockchip (5.10.0-1004.4) jammy; urgency=medium
 
   * arm64: dts: rockchip: add Orange Pi 5 sata device tree
