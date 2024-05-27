@@ -1,3 +1,13 @@
+linux-rockchip (6.1.0-1014.14) noble; urgency=medium
+
+  * arm64: dts: rockchip: Update Radxa overlays for the Rock 5 series
+  * arm64: dts: rockchip: Add the Radxa Rock 5D
+  * arm64: dts: rockchip: Add the Radxa Rock 5B Plus
+  * arm64: dts: rockchip: Add the Radxa Rock 5C
+  * ASoC: es8316: add record function
+
+ -- Joshua Riek <jjriek@verizon.net>  Mon, 27 May 2024 11:02:25 -0400
+
 linux-rockchip (6.1.0-1013.13) noble; urgency=medium
 
   * UBUNTU: enable common VIRTIO drivers
