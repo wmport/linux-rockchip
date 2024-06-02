@@ -1,3 +1,13 @@
+linux-rockchip (5.10.0-1006.6) jammy; urgency=medium
+
+  * UBUNTU: disable goodix touchscreen driver
+  * input: touchscreen: gt9xx: add cj080258 gt9271 config
+  * UBUNTU: enable EM05 LTE module
+  * net: lte: add lte_em05 driver
+  * UBUNTU: enable broadcom 43XX legacy wireless support
+
+ -- Joshua Riek <jjriek@verizon.net>  Sun, 02 Jun 2024 17:15:59 -0400
+
 linux-rockchip (5.10.0-1005.5) jammy; urgency=medium
 
   * arm64: dts: rockchip: Update Radxa overlays for the Rock 5 series
