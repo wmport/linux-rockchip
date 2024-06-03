@@ -1,3 +1,21 @@
+linux-rockchip (6.1.0-1015.15) noble; urgency=medium
+
+  * UBUNTU: enable EM05 LTE module
+  * UBUNTU: enable radxa displays and common debug features
+  * drm: bridge: synopsys: recapture monitor mode after resume
+  * input: touchscreen: gt9xx: add cj080258 gt9271 config
+  * input: touchscreen: gt9xx: update cj080258 gt911 config
+  * input: touchscreen: gt9xx: add cj080258 gt911 config
+  * drm: panel: jadard-jd9365da-h3: add Radxa Display 10HD
+  * drm: panel: jadard-jd9365da-h3: set the reset pin high during prepare stage
+  * drm: panel: radxa 8hd display: Fix some wrong definitions
+  * drm: panel: Add Jadard JD9365DA-H3 DSI panel
+  * drm: panel: add radxa display 8hd panel
+  * net: lte: add lte_em05 driver
+  * UBUNTU: enable broadcom 43XX legacy wireless support
+
+ -- Joshua Riek <jjriek@verizon.net>  Sun, 02 Jun 2024 22:26:40 -0400
+
 linux-rockchip (6.1.0-1014.14) noble; urgency=medium
 
   * arm64: dts: rockchip: Update Radxa overlays for the Rock 5 series
