@@ -1,3 +1,15 @@
+linux-rockchip (6.1.0-1016.16) noble; urgency=medium
+
+  * arm64: dts: rockchip: rock5: add hdmi enable-gpios
+  * UBUNTU: enable Rockchip cpuinfo
+  * arm64: dts: rockchip: add the radxa-cm5-rpi-cm4-io
+  * UBUNTU: enable Focaltech touchscreen
+  * input: touchscreen: focaltech touch: Removing invalid function calls
+  * arm64: dts: rockchip: rk3588: add system node
+  * arm64: cpuinfo: add cpu model
+
+ -- Joshua Riek <jjriek@verizon.net>  Wed, 05 Jun 2024 18:30:33 -0400
+
 linux-rockchip (6.1.0-1015.15) noble; urgency=medium
 
   * UBUNTU: enable EM05 LTE module
