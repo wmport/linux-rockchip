@@ -1,3 +1,12 @@
+linux-rockchip (6.1.0-1017.17) noble; urgency=medium
+
+  * arm64: dts: orangepi-5-pro: set USB OTG interface to host mode
+  * media: rockchip: hdmirx: add VIDIOC_G_PARM
+  * UBUNTU: enable the RT2800USB driver
+  * arm64: dts: orangepi-5-pro: fix the pwm driving frequency
+
+ -- Joshua Riek <jjriek@verizon.net>  Sun, 23 Jun 2024 13:33:06 -0400
+
 linux-rockchip (6.1.0-1016.16) noble; urgency=medium
 
   * arm64: dts: rockchip: rock5: add hdmi enable-gpios
