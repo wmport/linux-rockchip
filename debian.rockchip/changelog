@@ -1,3 +1,15 @@
+linux-rockchip (5.10.0-1009.9) jammy; urgency=medium
+
+  * arm64: dts: rockchip: add camera overlays for the Rock 5D
+  * arm64: dts: rockchip: add generic rk3568 overlays
+  * drivers/net: stmmac: use phy uid for rtl8211f fixup function
+  * ethernet: stmmac: disable rtl8211f eee
+  * ethernet: stmmac: add phy rtl8211f register fixup
+  * UBUNTU: enable fanotify access permissions
+  * Revert "usb: dwc3: core: Do not perform GCTL_CORE_SOFTRESET during bootup" 
+
+ -- Joshua Riek <jjriek@verizon.net>  Sun, 30 Jun 2024 14:24:09 -0400
+
 linux-rockchip (5.10.0-1008.8) jammy; urgency=medium
 
   * arm64: dts: orangepi-5-pro: set USB OTG interface to host mode
