@@ -1,3 +1,12 @@
+linux-rockchip (5.10.0-1011.11) jammy; urgency=medium
+
+  * arm64: dts: rockchip: Add support for the ArmSoM AIM7
+  * Add DTS files for Firefly AIO-3588L
+  * arm64: dts: rockchip: add the Orange Pi CM5
+  * arm64: dts: rockchip: add the Orange Pi 5 Max
+
+ -- Joshua Riek <jjriek@verizon.net>  Sun, 28 Jul 2024 22:34:36 -0400
+
 linux-rockchip (5.10.0-1010.10) jammy; urgency=medium
 
   * phy: rockchip-samsung-hdptx-hdmi: get phy init status before register clk
