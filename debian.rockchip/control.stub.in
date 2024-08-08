@@ -40,6 +40,11 @@ Build-Depends:
  rust-all <!stage1>,
  rust-src <!stage1>,
  bindgen <!stage1>,
+ libcapstone-dev <!stage1>,
+ libbabeltrace-dev <!stage1>,
+ libpfm4-dev <!stage1>,
+ libtraceevent-dev <!stage1>,
+ systemtap-sdt-dev <!stage1>,
  pahole [amd64 arm64 armhf ppc64el s390x riscv64] | dwarves (>= 1.21) [amd64 arm64 armhf ppc64el s390x riscv64] <!stage1>,
 Build-Depends-Indep:
  xmlto <!stage1>,
