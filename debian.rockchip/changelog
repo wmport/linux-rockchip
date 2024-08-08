@@ -1,3 +1,9 @@
+linux-rockchip (6.11.0-1003.3) oracular; urgency=medium
+
+  * UBUNTU: Add missing build depends
+
+ -- Joshua Riek <jjriek@verizon.net>  Thu, 08 Aug 2024 15:51:30 -0400
+
 linux-rockchip (6.11.0-1002.2) oracular; urgency=medium
 
   * UBUNTU: Remove zfs-linux dkms version
