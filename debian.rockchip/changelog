@@ -1,3 +1,12 @@
+linux-rockchip (6.1.0-1027.27) noble; urgency=medium
+
+  * UBUNTU: Enable PPS line discipline
+  * add rk3588-spi0-m2-cs0-mcp2515-8mhz overlay
+  * can: mcp251x: fix deadlock if an interrupt occurs during mcp251x_open
+  * can: mcp251x: Fix up includes
+
+ -- Joshua Riek <jjriek@verizon.net>  Sat, 19 Oct 2024 13:40:54 -0400
+
 linux-rockchip (6.1.0-1026.26) noble; urgency=medium
 
   * arch: arm64: rockchip: use panfrost driver for gpu of rk3576
